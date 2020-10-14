@@ -2,7 +2,6 @@ const express = require('express')
 const app = express()
 const PORT = 9999
 const { mysqlUPH } = require('./config')
-const xlsx = require('xlsx')
 const path = require('path')
 const fs = require('fs')
 const { parse } = require('json2csv')
